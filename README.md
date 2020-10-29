@@ -1,5 +1,7 @@
 # Algorithm
 
+##### 파이썬 알고리즘 인터뷰(박상길)의 문제풀이입니다.
+
 |Contents|
 |:---:|
 |[문자열](https://github.com/minjung-s/Algorithm/tree/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4)|
