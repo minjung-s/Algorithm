@@ -2,7 +2,7 @@
 
 |Contents|
 |:---:|
-|문자열|
+|[문자열](https://github.com/minjung-s/Algorithm/tree/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4)|
 |배열|
 |연결 리스트|
 |스택,큐|
