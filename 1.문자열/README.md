@@ -12,7 +12,7 @@ Input : "race a car"
 Output : false
 ```
 
-## Q2. 문자열 뒤집기
+## Q2. 문자열 뒤집기 (revese string)
 문자열을 뒤집는 함수를 작성하라. 입력값은 문자 배열이
 며, 리턴 없이 리스트 내부를 직접 조작하라.
 
@@ -23,7 +23,7 @@ Output: ["o","l","l","e","h"]
 Input: ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 ```
-
+[code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/reverseString.py)
 
 ## Q3. 로그파일 재정렬
 로그를 재정렬하라.
