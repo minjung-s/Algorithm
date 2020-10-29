@@ -13,12 +13,14 @@ def validPalindrome(s):
         if sentence[i] != sentence[len(sentence)-i-1] :
             condition = False
             break
-
+        
     return condition
+
 
 def main():
     s = input('문자열을 입력하세요: ')
     print(validPalindrome(s))
+
 
 if __name__ == '__main__':
     main()
