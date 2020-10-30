@@ -1,6 +1,6 @@
 # Algorithm
 
-##### '파이썬 알고리즘 인터뷰(박상길)'의 문제풀이입니다.
+##### [leetcode](https://leetcode.com/)문제풀이입니다.
 
 |Contents|
 |:---:|
