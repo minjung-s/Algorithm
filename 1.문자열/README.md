@@ -11,8 +11,9 @@ Output : true
 Input : "race a car"
 Output : false
 ```
-[code1](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q1_validPalindrome.py)
+[code1](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q1_validPalindrome.py) \
 [code2](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q1_validPalindrome2.py)
+
 
 ## Q2. 문자열 뒤집기 (Revese String) [leetcode](https://leetcode.com/problems/reverse-string/)
 문자열을 뒤집는 함수를 작성하라. 입력값은 문자 배열이
@@ -25,8 +26,9 @@ Output: ["o","l","l","e","h"]
 Input: ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 ```
-[code str2str](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q2_reverseString.py)
+[code str2str](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q2_reverseString.py) \
 [code list2none](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q2_reverseString_List2None.py)
+
 
 ## Q3. 로그파일 재정렬(Reorder Log Files)
 로그를 재정렬하라.
@@ -50,6 +52,7 @@ Input:
   banned = ["hit"]
 Output: "ball"
 ```
+[code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q4_mostCommonWord.py)
 
 
 ## Q5. 그룹 애너그램 [Group Anagrams]
@@ -61,6 +64,7 @@ Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 Input: strs = [""]
 Output: [[""]]
 ```
+[code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q5_groupAnagrame.py)
 
 
 ## Q6. 가장 긴 팰린드롬 부분 문자열 [Longest Palindrome Substring]
