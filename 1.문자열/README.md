@@ -1,6 +1,6 @@
 # 문자열
 
-## Q1. 유효한 팰린드롬 (Valid Palidrome)
+## Q1. 유효한 팰린드롬 (Valid Palidrome) [leetcode](https://leetcode.com/problems/valid-palindrome/)
 주어진 문자열이 팰린드롬인지 확인하라. 대소문자를 구
 분하지 않으며, 영문자와 숫자만을 대상으로한다.
 
