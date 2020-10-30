@@ -42,7 +42,7 @@ Output: ["let1 art can","let3 art zero","let2 own kit dig","dig1 8 1 5 1","dig2 
 ```
 
 
-## Q4. 가장 흔한 단어 [Most Common Word]
+## Q4. 가장 흔한 단어 [Most Common Word] [leetcode](https://leetcode.com/problems/most-common-word/)
 금지된 단어를 제외한 가장 흔하게 등장하는 단어를 출력
 대소문자 구분을 하지 않으며, 기호 무시
 
@@ -55,7 +55,7 @@ Output: "ball"
 [code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q4_mostCommonWord.py)
 
 
-## Q5. 그룹 애너그램 [Group Anagrams]
+## Q5. 그룹 애너그램 [Group Anagrams] [leetcode](https://leetcode.com/problems/group-anagrams/)
 문자열 배열을 받아 애너그램 단위로 그룹핑하라.
 ```python
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
