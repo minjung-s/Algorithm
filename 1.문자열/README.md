@@ -127,7 +127,7 @@ Input :
         AABA
         AABB
         BCBABCC
-*
+        *
 Output : 
         ZGBG is surprising.
         X is surprising.
