@@ -106,6 +106,7 @@ Input : 1ovey0uS2
         veS
 Output : 0 
 ```
+[code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q7_HW1.py)
 
 
 ## Q8. 놀라운 문자열 [baekjoon](https://www.acmicpc.net/problem/1972)
@@ -138,3 +139,4 @@ Output :
         BCBABCC is NOT surprising.
 ```
 
+[code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q8_HW2.py)
