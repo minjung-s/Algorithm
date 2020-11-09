@@ -1,7 +1,7 @@
 import re 
 while True: 
     
-    string = "ZGBG "
+    string = inputs()
     if string == "*":
         break
 
