@@ -6,9 +6,7 @@ python 의 경우 list 기본 자료형에 linked list 기능이 함께 포함�
 
 ```python
         test case input  l1 : [1,2,4]
-                         l2 : [1,3,4]
         print(l1) -> "ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, next: None}}}"
-        print(l2) -> "ListNode{val: 1, next: ListNode{val: 3, next: ListNode{val: 4, next: None}}}"
         
 ````
 
