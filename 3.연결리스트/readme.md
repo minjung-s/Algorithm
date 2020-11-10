@@ -4,6 +4,13 @@
 
 python 의 경우 list 기본 자료형에 linked list 기능이 함께 포함되어 있다. array list에서는 엘리먼트라는 이름을 사용했지만 linked list와 같이 연결된 엘리먼트들은 노드(node, 마디, 교점의 의미) 혹은 버텍스(vertex, 정점, 꼭지점의 의미)라고 부른다.
 
+```python
+        test case input  l1 : [1,2,4]
+                         l2 : [1,3,4]
+        print(l1) -> "ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, next: None}}}"
+        print(l2) -> "ListNode{val: 1, next: ListNode{val: 3, next: ListNode{val: 4, next: None}}}"
+        
+````
 
 **<링크드 리스트 클래스 내의 매소드>**
 
