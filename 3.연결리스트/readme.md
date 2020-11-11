@@ -18,7 +18,7 @@ print(l1) -> "ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, nex
         
 ````
 
-## Q1. 팰린드롬 연결 리스트 (Palindrome Linked List)[leetcode](https://leetcode.com/problems/palindrome-linked-list/)
+## Q1. 팰린드롬 연결 리스트 (234.Palindrome Linked List)[leetcode](https://leetcode.com/problems/palindrome-linked-list/)
 연결 리스트가 팰린드롬 구조인지 판별하라.
 
  ``` python
@@ -31,17 +31,17 @@ Output : true
 [code](https://github.com/minjung-s/Algorithm/blob/master/3.%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/Q1_isPalidrome.py)
 
 
-## Q2. 두 정렬 리스트의 병합 (Merge Two Sorted Lists) [leetcode](https://leetcode.com/problems/merge-two-sorted-lists/)
+## Q2. 두 정렬 리스트의 병합 (21.Merge Two Sorted Lists) [leetcode](https://leetcode.com/problems/merge-two-sorted-lists/)
 정렬되어 있는 두 연결 리스트를 합쳐라
 
 ```python
 Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4
 ```
-[code]()
+[code](https://github.com/minjung-s/Algorithm/blob/master/3.%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/Q2_mergeTwoLists.py)
 
 
-## Q3. 역순 연결 리스트(Reverse Linked List) [leetcode](https://leetcode.com/problems/reverse-linked-list/)
+## Q3. 역순 연결 리스트(206.Reverse Linked List) [leetcode](https://leetcode.com/problems/reverse-linked-list/)
 연결 리스트를 뒤집어라.
 ```python
 Input: 1->2->3->4->5->NULL
