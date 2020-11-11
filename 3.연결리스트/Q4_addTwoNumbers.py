@@ -1,8 +1,7 @@
 """
-Runtime: 48 ms, faster than 9.54% of Python3 online submissions for Merge Two Sorted Lists.
-Memory Usage: 14 MB, less than 100.00% of Python3 online submissions for Merge Two Sorted Lists.
+Runtime: 1028 ms, faster than 5.87% of Python3 online submissions for Reverse Linked List.
+Memory Usage: 16.1 MB, less than 7.98% of Python3 online submissions for Reverse Linked List.
 """
-# Definition for singly-linked list.
 class Solution:
     def node2list(self, node1: ListNode) -> List: #linked list -> list
         list1 = []
@@ -24,26 +23,18 @@ class Solution:
                 node.next = ListNode(num)
         return result_node
     
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-        
-        node_l1 = l1
-        node_l2 = l2
-        
+    def reverseList(self, head: ListNode) -> ListNode:
+        node = head
         result = []
         
-       
-        result = self.node2list(node_l1) + self.node2list(node_l2)
-        result.sort() #오름차순 정렬
+        
+        result = self.node2list(node)
+        
+        result.reverse() #순서 뒤집기
         
         if len(result) == 0 :
             return None
-        
-        else : 
+        else:
             return self.list2node(result)
             
-            
         
-            
-            
-        
-            
