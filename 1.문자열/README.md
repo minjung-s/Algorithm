@@ -1,6 +1,6 @@
 # 문자열
 
-## Q1. 유효한 팰린드롬 (Valid Palidrome) [leetcode](https://leetcode.com/problems/valid-palindrome/)
+## Q1. 125 유효한 팰린드롬 (125 Valid Palidrome) [leetcode](https://leetcode.com/problems/valid-palindrome/)
 주어진 문자열이 팰린드롬인지 확인하라. 대소문자를 구
 분하지 않으며, 영문자와 숫자만을 대상으로한다.
 
@@ -15,7 +15,7 @@ Output : false
 [code2](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q1_validPalindrome2.py)
 
 
-## Q2. 문자열 뒤집기 (Revese String) [leetcode](https://leetcode.com/problems/reverse-string/)
+## Q2. 344 문자열 뒤집기 (344 Revese String) [leetcode](https://leetcode.com/problems/reverse-string/)
 문자열을 뒤집는 함수를 작성하라. 입력값은 문자 배열이
 며, 리턴 없이 리스트 내부를 직접 조작하라.
 
@@ -30,7 +30,7 @@ Output: ["h","a","n","n","a","H"]
 [code list2none](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q2_reverseString_List2None.py)
 
 
-## Q3. 로그파일 재정렬(Reorder Log Files)
+## Q3. 937 로그파일 재정렬(937 Reorder Log Files)
 로그를 재정렬하라.
 1. 로그의 가장 앞 부분은 식별자
 2. 문자로 구성된 로그가 숫자 로그보다 앞에 온다.
@@ -42,7 +42,7 @@ Output: ["let1 art can","let3 art zero","let2 own kit dig","dig1 8 1 5 1","dig2 
 ```
 
 
-## Q4. 가장 흔한 단어 [Most Common Word] [leetcode](https://leetcode.com/problems/most-common-word/)
+## Q4. 819 가장 흔한 단어 [819 Most Common Word] [leetcode](https://leetcode.com/problems/most-common-word/)
 금지된 단어를 제외한 가장 흔하게 등장하는 단어를 출력
 대소문자 구분을 하지 않으며, 기호 무시
 
@@ -55,7 +55,7 @@ Output: "ball"
 [code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q4_mostCommonWord.py)
 
 
-## Q5. 그룹 애너그램 [Group Anagrams] [leetcode](https://leetcode.com/problems/group-anagrams/)
+## Q5. 49 그룹 애너그램 (49 Group Anagrams) [leetcode](https://leetcode.com/problems/group-anagrams/)
 문자열 배열을 받아 애너그램 단위로 그룹핑하라.
 ```python
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
@@ -67,7 +67,7 @@ Output: [[""]]
 [code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q5_groupAnagrame.py)
 
 
-## Q6. 가장 긴 팰린드롬 부분 문자열 [Longest Palindrome Substring]
+## Q6. 5 가장 긴 팰린드롬 부분 문자열 (5 Longest Palindrome Substring)
 가장 긴 팰린드롬 부분 문자열을 출력하라.
 ```python
 Input: s = "babad"
@@ -85,7 +85,7 @@ Output: "a"
 ```
 
 
-## Q7. 나는 친구가 적다 (Large) [baekjoon](https://www.acmicpc.net/problem/16172)
+## Q7. 16172 나는 친구가 적다 (Large) [baekjoon](https://www.acmicpc.net/problem/16172)
 친구가 적은 성민이는 수업에 결석해도 시험이나 과제에 대한 정보를 제대로 얻을 수 없었다. F 학점을 받을 위기까지 아슬아슬하게 결석일 수를 유지하던 성민이는, 어느 날 갑자기 영문도 모른 채 쪽지시험을 보게 되었다!
 
 갑작스러운 쪽지 시험으로 마음이 급해진 성민이는 매직아이를 사용해 벼락치기를 하기로 한다.
@@ -109,7 +109,7 @@ Output : 0
 [code](https://github.com/minjung-s/Algorithm/blob/master/1.%EB%AC%B8%EC%9E%90%EC%97%B4/Q7_HW1.py)
 
 
-## Q8. 놀라운 문자열 [baekjoon](https://www.acmicpc.net/problem/1972)
+## Q8. 1972 놀라운 문자열  [baekjoon](https://www.acmicpc.net/problem/1972)
 대문자 알파벳으로만 이루어져 있는 문자열이 있다. 이 문자열에 대해서 ‘D-쌍’이라는 것을 정의할 수 있는데, 이 문자열에 포함되어 있는, 거리가 D인 두 문자를 순서대로 나열한 것을 이 문자열의 D-쌍이라고 한다. 예를 들어 문자열이 ZGBG라고 하자. 이 문자열의 0-쌍은 ZG, GB, BG가 되고, 이 문자열의 1-쌍은 ZB, GG가 되며, 이 문자열의 2-쌍은 ZG가 된다. 문자열의 길이가 N이라고 할 때, 0-쌍부터 (N-2)-쌍까지가 정의됨을 알 수 있다.
 
 만일 정의되는 D에 대해, 어떤 문자열의 모든 D-쌍들이 서로 다를 때, 이 문자열을 D-유일하다고 한다. 위의 예를 보면, 0-쌍들은 ZG, GB, BG로 모두 다르다. 따라서 이 문자열은 0-유일하며, 마찬가지로 1-유일하고, 2-유일하다. 하지만 만일 문자열이 AAA라고 하자. 이 문자열은 0-유일하지 않으며, 다만 1-유일하다.
