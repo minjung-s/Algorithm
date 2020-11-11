@@ -36,7 +36,7 @@ Output : false
 Input : "1->2->2->1"
 Output : true
 ```
-[code]() \
+[code](https://github.com/minjung-s/Algorithm/blob/master/3.%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/Q1_isPalidrome.py)
 
 
 ## Q2. 두 정렬 리스트의 병합 (Merge Two Sorted Lists) [leetcode](https://leetcode.com/problems/merge-two-sorted-lists/)
