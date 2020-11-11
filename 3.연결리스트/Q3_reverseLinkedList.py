@@ -1,26 +1,20 @@
 """
-Runtime: 44 ms, faster than 13.19% of Python3 online submissions for Merge Two Sorted Lists.
-Memory Usage: 14.2 MB, less than 100.00% of Python3 online submissions for Merge Two Sorted Lists.
+Runtime: 1112 ms, faster than 5.87% of Python3 online submissions for Reverse Linked List.
+Memory Usage: 16.1 MB, less than 7.98% of Python3 online submissions for Reverse Linked List.
 """
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-        
-        node_l1 = l1
-        node_l2 = l2
-        
+    def reverseList(self, head: ListNode) -> ListNode:
+        node = head
         result = []
         
-        result_node = ListNode()
-        while node_l1 != None :
-            result.append(node_l1.val)
-            node_l1 = node_l1.next
+        
+        while node != None :
+            result.append(node.val)
+            node = node.next
             
-        while node_l2 != None :
-            result.append(node_l2.val)
-            node_l2 = node_l2.next
+        result.reverse() #순서 뒤집기
         
-        result.sort() #오름차순 정렬
-        
+        result_node = ListNode()
         if len(result) == 0 :
             return None
         
@@ -35,3 +29,4 @@ class Solution:
        
         return result_node
             
+        

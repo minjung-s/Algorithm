@@ -1,9 +1,7 @@
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-        
+"""
+Runtime: 72 ms
+Memory Usage: 24.2 MB
+"""
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         node = head
@@ -14,7 +12,7 @@ class Solution:
         
         while node is not None : #linked list를 list로 변환
             list_tmp.append(node.val) 
-            node = node.next
+            head = node.next
         
         # print(type(list_tmp)) -> "list"
         
