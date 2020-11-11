@@ -1,6 +1,6 @@
 """
-Runtime: 1028 ms, faster than 5.87% of Python3 online submissions for Reverse Linked List.
-Memory Usage: 16.1 MB, less than 7.98% of Python3 online submissions for Reverse Linked List.
+Runtime: 76 ms, faster than 32.65% of Python3 online submissions for Add Two Numbers.
+Memory Usage: 14.2 MB, less than 100.00% of Python3 online submissions for Add Two Numbers.
 """
 class Solution:
     def node2list(self, node1: ListNode) -> List: #linked list -> list
@@ -22,19 +22,28 @@ class Solution:
                     node = node.next
                 node.next = ListNode(num)
         return result_node
-    
-    def reverseList(self, head: ListNode) -> ListNode:
-        node = head
-        result = []
         
         
-        result = self.node2list(node)
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        node1 = l1
+        node2 = l2 
         
-        result.reverse() #순서 뒤집기
+        #linked list -> list
+        list1 = self.node2list(node1)
+        list2 = self.node2list(node2)
         
-        if len(result) == 0 :
-            return None
-        else:
-            return self.list2node(result)
-            
+
+        # 배열 뒤집기
+        list1.reverse()
+        list2.reverse()
         
+        #배열 -> join -> int
+        num1 = int(''.join(str(a) for a in list1))
+        num2 = int(''.join(str(a) for a in list2))
+        result = list(str(num1+num2))
+        result.reverse()
+        
+        return self.list2node(result)
+        
+        
+                
