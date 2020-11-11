@@ -38,7 +38,7 @@ Output : true
 Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4
 ```
-[code]()
+[code](https://github.com/minjung-s/Algorithm/blob/master/3.%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/Q2_mergeTwoLists.py)
 
 
 ## Q3. 역순 연결 리스트(Reverse Linked List) [leetcode](https://leetcode.com/problems/reverse-linked-list/)
