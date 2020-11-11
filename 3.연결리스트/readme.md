@@ -18,14 +18,6 @@ print(l1) -> "ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, nex
         
 ````
 
-**<링크드 리스트 클래스 내의 매소드>**
-
- - **head** : 맨 앞을 가르킨다.
- - **before** : 현재 위치 전
- - **current** : 현재 탐색위치
- - **tail** : 맨 뒤를 가르킨다.
- - **num_of_data** : 데이터의 총 개수
-
 ## Q1. 팰린드롬 연결 리스트 (Palindrome Linked List)[leetcode](https://leetcode.com/problems/palindrome-linked-list/)
 연결 리스트가 팰린드롬 구조인지 판별하라.
 
@@ -36,7 +28,7 @@ Output : false
 Input : "1->2->2->1"
 Output : true
 ```
-[code]() \
+[code](https://github.com/minjung-s/Algorithm/blob/master/3.%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/Q1_isPalidrome.py)
 
 
 ## Q2. 두 정렬 리스트의 병합 (Merge Two Sorted Lists) [leetcode](https://leetcode.com/problems/merge-two-sorted-lists/)
