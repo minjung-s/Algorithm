@@ -6,15 +6,15 @@ class ListNode:
         
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
-
+        node = head
         list_tmp = []
         
-        if head == False : # 빈 linked list이면 팰린드롬이므로 True반환
+        if node == False : # 빈 linked list이면 팰린드롬이므로 True반환
             return True
         
-        while head is not None : #linked list를 list로 변환
-            list_tmp.append(head.val) 
-            head = head.next
+        while node is not None : #linked list를 list로 변환
+            list_tmp.append(node.val) 
+            node = node.next
         
         # print(type(list_tmp)) -> "list"
         
