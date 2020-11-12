@@ -17,6 +17,19 @@ test case input  l1 : [1,2,4]
 print(l1) -> "ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, next: None}}}"
         
 ````
+Node->Node
+next : 다음 노드 주소값
+head tail = None으로 초기화
+동적배열에서 node날리는거 -> 시간복잡도 크다
+liked list : 그냥 node연결을 끊는것 -> 시간 복잡도 O(1)
+더블 링크드 리스트 : {val,next,prev} 메모리공간 세개 필요
+
+시간복잡도
+
+접근 n
+탐색 n
+삽입 1
+삭제 1
 
 ## Q1. 234 팰린드롬 연결 리스트 (234 Palindrome Linked List)[leetcode](https://leetcode.com/problems/palindrome-linked-list/)
 연결 리스트가 팰린드롬 구조인지 판별하라.
@@ -30,6 +43,7 @@ Output : true
 ```
 [code](https://github.com/minjung-s/Algorithm/blob/master/3.%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8/Q1_isPalidrome.py)
 
+데크 : 더블링크드리스트
 
 ## Q2. 21 두 정렬 리스트의 병합 (21 Merge Two Sorted Lists) [leetcode](https://leetcode.com/problems/merge-two-sorted-lists/)
 정렬되어 있는 두 연결 리스트를 합쳐라
